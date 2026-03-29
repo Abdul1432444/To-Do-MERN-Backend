@@ -8,7 +8,7 @@ const app = express();
 // middleware must come BEFORE routes
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://to-do-mern-delta.vercel.app",
   }),
 );
 app.use(express.json()); // this line must be here before routes
